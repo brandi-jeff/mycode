@@ -3,7 +3,7 @@
    Running a simulation with our classes"""
 
 #import everything from cheatdice
-from cheatdice import *
+from dice_cheats02  import *
 
 def main():
     """called at runtime"""
@@ -11,7 +11,7 @@ def main():
     #players
     swapper = Cheat_Swapper()
     loaded_dice = Cheat_Loaded_Dice()
-
+    
     #track players scores
     swapper_score = 0
     loaded_dice_score = 0
